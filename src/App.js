@@ -1,6 +1,9 @@
 
 function App() {
-  return <h1>Hola mundo!</h1>
+  return (
+    <div className="background">
+    </div>
+  )
 }
 
 export default App;
