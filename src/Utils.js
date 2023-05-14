@@ -1,8 +1,8 @@
 
 //images
-import RobloxLogo from "./Media/roblox.png"
-import Fiverr from "./Media/fiverr.png"
-import Github from "./Media/github.png"
+import RobloxLogo from "./Pages/Media/roblox.png"
+import Fiverr from "./Pages/Media/fiverr.png"
+import Github from "./Pages/Media/github.png"
 import Checkmark from "./Pages/PagesMedia/Checkmark.png"
 
 
