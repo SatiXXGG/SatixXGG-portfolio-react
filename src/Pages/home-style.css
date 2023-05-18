@@ -5,14 +5,18 @@
 }
 
 body {
-    background-color: #354659;
-    background-image: url("./Media/BackgroundPNG.png");
-    background-size:auto;
+    background-color: black;
+    background-image: url("./Media/background2.jpg");
+    background-size: auto;
     position: absolute;
     padding: 0;
     margin: 0;
     background-repeat: no-repeat;
     object-fit: cover;
+}
+
+.example-container {
+    text-align: center;
 }
 
 .nav-bar a {
@@ -194,4 +198,95 @@ body {
 .prices-list li {
     float: left;
     padding-left: 10px;
+}
+
+.react-player {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.examplesImg {
+    width: 1500px;
+    height: 250px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.examplesImg h1 {
+    position: absolute;
+    left: 20px;
+    top: -.8rem;
+}
+
+.examplesImg p { /* date */
+    position: absolute;
+    left: 88rem;
+    top: 0rem;
+    font-weight: 900;
+}
+
+.examplesImg h2 {
+    position: absolute;
+    top: 2.5rem;
+    left: 20px;
+    width: 1000px;
+}
+
+.example-container {
+    position: relative;
+    top: 10px;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 80rem;
+    margin-top: 20px;
+}
+
+.example-container h3 {
+    position: relative;
+    top: -2.5rem;
+    color: #ffb200;
+}
+
+.example-container p {
+    position: relative;
+    top: -4.3rem;
+}
+
+.example-container img {
+    width: 600px;
+    border: 2px solid rgba(255, 255, 255, .35);
+    border-radius: 20px;
+    position: relative;
+    top: -3rem;
+}
+
+.examples-nav ul {
+    padding-left: 10px;
+    padding-top: 0rem;
+}
+
+.examples-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: -30px;
+    font-weight: bolder;
+    padding-left: 1rem;
+    padding-bottom: 1px;
+}
+.examples-nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    top: -.75rem;
+    color:  seashell;
+}
+
+.examples-nav a:hover {
+    color: #ffb200;
 }
