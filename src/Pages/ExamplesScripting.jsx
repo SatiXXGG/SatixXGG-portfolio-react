@@ -16,13 +16,13 @@ const App = function() {
             <nav className="examples-nav">
                 <ul>
                     <li>
-                        <a href="/Examples/UI">UI</a>
+                        <a href="/SatixXGG-portfolio-react/examples/UI">UI</a>
                     </li>
                     <li>
-                        <a href="/Examples/Building">Building</a>
+                        <a href="/SatixXGG-portfolio-react/examples/Building">Building</a>
                     </li>
                     <li>
-                        <a href="/Examples/Scripting">Scripting</a>
+                        <a href="/SatixXGG-portfolio-react/examples/Scripting">Scripting</a>
                     </li>
                 </ul>
             </nav>

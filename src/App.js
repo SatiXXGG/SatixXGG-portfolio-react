@@ -10,11 +10,11 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="SatixXGG-portfolio-react/" element={<Home />} />
-      <Route path="SatixXGG-portfolio-react/prices" element={<Prices />} />
-      <Route path="SatixXGG-portfolio-react/examples/UI" element={<ExamplesUI />} />
-      <Route path="SatixXGG-portfolio-react/examples/Building" element={<ExamplesBuild />} />
-      <Route path="SatixXGG-portfolio-react/examples/Scripting" element={<ScriptingExample />} />
+      <Route path="/SatixXGG-portfolio-react" element={<Home />} />
+      <Route path="/SatixXGG-portfolio-react/prices" element={<Prices />} />
+      <Route path="/SatixXGG-portfolio-react/examples/UI" element={<ExamplesUI />} />
+      <Route path="/SatixXGG-portfolio-react/examples/Building" element={<ExamplesBuild />} />
+      <Route path="/SatixXGG-portfolio-react/examples/Scripting" element={<ScriptingExample />} />
       </Routes>
     </BrowserRouter>
   );
