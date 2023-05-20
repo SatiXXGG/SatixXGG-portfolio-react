@@ -8,13 +8,13 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/SatixXGG-portfolio-react">
     <Routes>
-      <Route path="/SatixXGG-portfolio-react" element={<Home />} />
-      <Route path="/SatixXGG-portfolio-react/prices" element={<Prices />} />
-      <Route path="/SatixXGG-portfolio-react/examples/UI" element={<ExamplesUI />} />
-      <Route path="/SatixXGG-portfolio-react/examples/Building" element={<ExamplesBuild />} />
-      <Route path="/SatixXGG-portfolio-react/examples/Scripting" element={<ScriptingExample />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/prices" element={<Prices />} />
+      <Route path="/examples/UI" element={<ExamplesUI />} />
+      <Route path="/examples/Building" element={<ExamplesBuild />} />
+      <Route path="/examples/Scripting" element={<ScriptingExample />} />
       </Routes>
     </BrowserRouter>
   );

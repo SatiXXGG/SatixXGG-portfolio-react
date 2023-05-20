@@ -15,7 +15,7 @@ const App = function() {
         <>
             <nav className="examples-nav">
                 <ul>
-                    <li>
+                <li>
                         <a href="/SatixXGG-portfolio-react/examples/UI">UI</a>
                     </li>
                     <li>
