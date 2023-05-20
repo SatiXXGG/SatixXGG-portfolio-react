@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SatixXGG-portfolio-react/static/css/main.227cb58f.css",
-    "main.js": "/SatixXGG-portfolio-react/static/js/main.d414e8ef.js",
+    "main.js": "/SatixXGG-portfolio-react/static/js/main.9928d0a3.js",
     "static/media/arms-video.mp4": "/SatixXGG-portfolio-react/static/media/arms-video.ca8415911ebfb6ff2524.mp4",
     "static/media/dynamic-ui.mp4": "/SatixXGG-portfolio-react/static/media/dynamic-ui.836888bece626e9abcca.mp4",
     "static/media/gta-menu.mp4": "/SatixXGG-portfolio-react/static/media/gta-menu.fb07a4bcabe0abd7176b.mp4",
@@ -20,10 +20,10 @@
     "static/media/Logo.png": "/SatixXGG-portfolio-react/static/media/Logo.79888b97c2dbfe6d7365.png",
     "index.html": "/SatixXGG-portfolio-react/index.html",
     "main.227cb58f.css.map": "/SatixXGG-portfolio-react/static/css/main.227cb58f.css.map",
-    "main.d414e8ef.js.map": "/SatixXGG-portfolio-react/static/js/main.d414e8ef.js.map"
+    "main.9928d0a3.js.map": "/SatixXGG-portfolio-react/static/js/main.9928d0a3.js.map"
   },
   "entrypoints": [
     "static/css/main.227cb58f.css",
-    "static/js/main.d414e8ef.js"
+    "static/js/main.9928d0a3.js"
   ]
 }
