@@ -30,14 +30,14 @@ export function NavigationBar() {
     <div className="nav-bar">
       <nav>
         <h1>
-          <a href="/">SatixXGG</a>
+          <a href="SatixXGG-portfolio-react/">SatixXGG</a>
         </h1>
         <ul>
           <li>
-            <a href="/prices">Prices</a>
+            <a href="SatixXGG-portfolio-react/prices">Prices</a>
           </li>
           <li>
-            <a href="/Examples/UI">Examples</a>
+            <a href="SatixXGG-portfolio-react/examples/UI">Examples</a>
           </li>
         </ul>
       </nav>
