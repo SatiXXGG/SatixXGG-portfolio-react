@@ -4,20 +4,21 @@ import Fiverr from "./Pages/Media/fiverr.png";
 import Github from "./Pages/Media/github.png";
 import Checkmark from "./Pages/PagesMedia/Checkmark.png";
 import ReactPlayer from "react-player";
+import { Link } from "react-router-dom";
 
 function ReturnMedia(type = "any", source = "any") {
   if (type == "vid") {
     return (
       <div>
         <ReactPlayer
-        url={source}
-        width="600px"
-        height="350px"
-        volume=".2"
-        controls
-        playsinline
-        style={{ top: "-3rem", position: "relative" }}
-      />
+          url={source}
+          width="600px"
+          height="350px"
+          volume=".2"
+          controls
+          playsinline
+          style={{ top: "-3rem", position: "relative" }}
+        />
       </div>
     );
   } else {
@@ -30,14 +31,14 @@ export function NavigationBar() {
     <div className="nav-bar">
       <nav>
         <h1>
-          <a href="/SatixXGG-portfolio-react/">SatixXGG</a>
+          <Link to="/SatixXGG-portfolio-react/">SatixXGG</Link>
         </h1>
         <ul>
           <li>
-            <a href="/SatixXGG-portfolio-react/prices">Prices</a>
+            <Link to="/SatixXGG-portfolio-react/prices">Prices</Link>
           </li>
           <li>
-            <a href="/SatixXGG-portfolio-react/examples/UI">Examples</a>
+            <Link to="/SatixXGG-portfolio-react/examples/UI">Examples</Link>
           </li>
         </ul>
       </nav>

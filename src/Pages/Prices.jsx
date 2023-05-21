@@ -1,8 +1,10 @@
 import { PriceContainer } from "../Utils.jsx";
+import { ContactBar , NavigationBar } from "../Utils.jsx";
 
 const App = function (params) {
   return (
     <>
+      <NavigationBar />
       <ul className="prices-list" style={{ listStyle: "none" }}>
         <li>
           {PriceContainer(
@@ -41,7 +43,7 @@ const App = function (params) {
               "Two check",
               "Progress videos",
               "2 UI Designed by me",
-              "Second level (If basic)"
+              "Second level (If basic)",
             ],
             "25 - 100 USD"
           )}
@@ -57,6 +59,7 @@ const App = function (params) {
       >
         This prices are just examples and are subject to change
       </h2>
+      <ContactBar />
     </>
   );
 };
