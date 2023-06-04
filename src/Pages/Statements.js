@@ -12,6 +12,7 @@ import IntSystem from "./ExamplesFolder/int-system.mp4"
 import GtaMenu from "./ExamplesFolder/gta-menu.mp4"
 import StaminaBar from "./ExamplesFolder/stamina-bar.mp4"
 import DynamicUi from "./ExamplesFolder/dynamic-ui.mp4"
+import pvpGame from "./ExamplesFolder/pvp-system.mp4"
 
 export default [
     //["toomiska", "Very quick and extremely helpful in such a short time. Revised it extremely quickly, had no problems asking for my help and opinions, delivered before the deadline and and a reasonable price", vid1, "05/13/23"]
@@ -29,5 +30,6 @@ export default [
     ["Interaction system", "Advanced customizable interaction system with cooldown", IntSystem, "10/10/23", "PR", "vid"],
     ["GTA Style menu", "Advanced customizable GTA menu with options as change numbers, bools, strings and actions", GtaMenu, "05/27/22", "PR", "vid"],
     ["Dynamic stamina bar", "Advanced and dynamic stamina bar like Genshin Impact game", StaminaBar, "08/13/20", "PR", "vid"],
-    ["UI opening animation", "Opening animation for almost every item, clean and cool", DynamicUi, "08/13/20", "PR", "vid"]
+    ["UI opening animation", "Opening animation for almost every item, clean and cool", DynamicUi, "08/13/20", "PR", "vid"],
+    ["Almost complete PVP&PVE game", "(ONLY SCRIPTING) Advanced melee system, inventory, shop, and squad system", pvpGame, "03/01/23", "PR", "vid"]
 ]
